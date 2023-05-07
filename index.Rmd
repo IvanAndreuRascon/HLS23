@@ -1,0 +1,501 @@
+---
+title: "Bimodal Speech Perception in Second Language Learning: The Power of Visual Cues"
+subtitle: Bimodal Speech Production in L2 Learners
+author: "Ivan Andreu Rascon"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers-fonts", "rutgers"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r ,echo=FALSE, include=FALSE}
+library(here)
+library(knitr)
+library(kableExtra)
+
+```
+
+# How do we perceive language?
+
+.pull-left[
+```{r echo=FALSE}
+#| out.width: "100%"
+
+knitr::include_graphics(here("figs", "eye1.jpg"))
+
+```
+]
+
+.pull-right[
+- Understanding language is a complex process that involves bringing together information from various sources, including the sound of speech, our knowledge of language structure, and context. 
+
+- Extensive literature in L1 visual perception (O’Neill, 1954; Ross et al., 2007; Sumby & Pollack, 1954).
+
+- Studies based on L1 and participants with disabilities.
+
+- Scarce, but promising research in SLA bimodal speech perception suggests that can have beneficial implications for second language learning (Brancazio & Miller, 2005; Hazan et al., 2006)
+]
+---
+# This study. 
+
+### Experiment 1: **Identification of Spanish vowels.**
+
+### Experiment 2: **L2 identification of monophthong-diphthong alternations.**
+
+### Experiment 3: **Modality effects on perception of Spanish resyllabification.**
+
+---
+
+# Background: Speech perception. 
+
+--
+
+## Motor theory (Liberman & Mattingly, 1985) 
+- Speaker’s ability to identify the specific motor commands that underlie the speaker’s articulatory movements. Eg: “tongue backing,” “lip rounding,” and “jaw raising.”
+- McGurk effect, (McGurk & MacDonald, 1976). 
+ - Fused perception of language. 
+
+--
+
+## The Direct Realist Theory (Fowler, 1986).
+- Similar to the MT, speech perception is rooted in the analysis of articulatory events, rather than acoustic events.
+- Process that relies on the integration of multiple sources of information,
+
+#### Effect of visual cues? How do humans perceive sound in noisy environments? 
+
+---
+
+# Background: Second language speech perception
+
+--
+
+## The Speech Learning Model (revised) (Flege & Bohn, 2021). 
+
+- Growth and development of phonetic categories in second-language learning. 
+- Considers the integration of various sources to perceive language. 
+
+--
+
+## The Perception Assimilation Model (PAM-L2) (Best et al, 2007). 
+
+- Learners assimilate L2 sounds to the most similar L1 sounds.
+  - We can make predictions based on phonemic inventories. 
+
+
+
+- Having more (vowel) phonemes, does not imply better perception. Escudero & Williams (2012), Gordon (2008),Inceoglu (2022). 
+  
+---
+# Background: Second language speech and visual perception. 
+
+## Within the PAM-L2 precepts
+
+- Hazan et al. (2006) identified three types of visemes 
+  - (1) those present in both L1 and L2, 
+  - (2) those unique to L2
+  - (3) those that differ between L1 and L2. 
+  
+A viseme was defined as: 
+
+*The visual representation of speech sounds seen in the movements and shapes of the mouth and lips. *
+
+- **L1 phonemes and visemes affect L2 perception**
+  - Categories (2) and (3), their L2 acquisition might be hindered
+---
+
+# Background: Second language speech and visual perception.  
+
+- Fenwick et al. (2017) phonemes and visemes that are similar in the L1 are easier to perceive and categorize. 
+
+- Desroches et al. (2022) bilinguals have a flexible language processing system. 
+  - **Cross-language connections** between lexical representations and phonology.
+  - Bilinguals automatically activate lexical options from both languages when looking at pictures. 
+  - Bilinguals can execute top-down cross-language connections. 
+
+- Marian et al. (2018), l2 experience the McGurk effect more often than monolinguals. 
+  - Bilinguals possess dual visemic and phonemic inventories, expanding their range of linguistic possibilities.
+  
+---
+
+# Research Questions  
+
+1.	Are second-language English learners of Spanish capable of identifying vowels by visually observing the respective articulation in natural speech? Does a correlation exist between their accuracy and language proficiency?
+
+2.	To what extent does incongruity between auditory and visual inputs impede the processing of auditory information? Does the proficiency level of a learner influence their ability to effectively process and prioritize between two competing inputs?
+
+---
+
+# Experiment 1: Identification of Spanish vowels
+
+.pull-left[
+- Input was recorded in a sound attenuated booth. 
+- Video was later trimmed from the septal cartilage to the mandible mentalis muscle
+- Target words. 
+- Consonants /p, t, k, b, d, g, f, j, s and θ/. 
+- With /a, e, i, o u/.
+  - Created bi-syllable words.
+- All possible answers were provided 
+  - Audio only     50 items
+  - Visual only    50 items
+  - Audiovisual    50 items
+  - Mismatch       50 items
+- **Total**     200 items 
+]
+--
+.pull-right[
+```{r echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics(here("figs", "vowel_mismatch_decision.jpg"))
+
+```
+##### Procedure to create vowel mismatch condition
+]
+---
+.pull-left[
+## Procedure 
+  
+1. LexTALE
+2. Experiment 1, (followed by 2 and 3)
+ Input was randomized 
+3. Background questionary
+
+## Participants 
+```{r echo=FALSE}
+#| out.width: "80%"
+knitr::include_graphics(here("figs", "s1part.png"))
+
+```
+]
+--
+.pull-right[
+## Statistical analysis
+
+- This experiment utilized a Bayesian multinomial logistic regression to assess the probability of an observation being identified as one of the five Spanish vowels (/a/, /e/, /i/, /o/, /u/).
+- The responses were modeled as a function of condition and language proficiency. Likelihood of identifying a specific vowel in: 
+  - audio, 
+  - visual-only 
+  - audiovisual
+  - audiovisual mismatch
+  ]
+
+---
+# Results 
+.center[
+```{r echo=FALSE}
+#| out.width: "40%"
+knitr::include_graphics(here("figs", "s1a.png"))
+```
+]
+
+---
+# Results 
+.pull-left[
+```{r echo=FALSE}
+#| out.width: "70%"
+knitr::include_graphics(here("figs", "s1e.png"))
+```
+]
+--
+.pull-right[
+```{r echo=FALSE}
+#| out.width: "75%"
+knitr::include_graphics(here("figs", "s1i.png"))
+```
+]
+
+---
+# Results 
+.pull-left[
+```{r echo=FALSE}
+#| out.width: "70%"
+knitr::include_graphics(here("figs", "s1o.png"))
+```
+]
+--
+.pull-right[
+```{r echo=FALSE}
+#| out.width: "73%"
+knitr::include_graphics(here("figs", "s1u.png"))
+```
+]
+
+---
+```{r echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics(here("figs", "s1_prob.png"))
+```
+
+.center[
+```{r echo=FALSE}
+#| out.width: "40%"
+knitr::include_graphics(here("figs", "vowel_mismatch_decision.jpg"))
+
+```
+]
+
+---
+# Results: LexTALE
+
+.center[
+```{r echo=FALSE}
+#| out.width: "95%"
+knitr::include_graphics(here("figs", "s1audio.png"))
+
+```
+]
+---
+# Results: LexTALE
+.center[
+```{r echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics(here("figs", "s1av.png"))
+
+```
+]
+
+---
+# Results: LexTALE
+.center[
+```{r echo=FALSE}
+#| out.width: "95%"
+knitr::include_graphics(here("figs", "s1visual.png"))
+
+```
+]
+---
+# Results: LexTALE
+.center[
+```{r echo=FALSE}
+#| out.width: "90%"
+knitr::include_graphics(here("figs", "s1avmis.png"))
+
+```
+]
+---
+.center[
+```{r echo=FALSE}
+#| out.width: "55%"
+knitr::include_graphics(here("figs", "s1_all.png"))
+
+```
+]
+---
+# Experiment 2: L2 identification of monophthong-diphthong alternations.
+
+## Method 
+.pull-left[
+- Same conditions and procedure as in Experiment 1.
+- Real words were used
+  - Pena vs Peina
+  - Vale vs Baile
+- The mismatch condition was established by exchanging both input stimuli.
+- With a total of **fifty-six items**
+
+## Participants 
+```{r echo=FALSE}
+#| out.width: "50%"
+knitr::include_graphics(here("figs", "s2part.png"))
+
+```
+]
+
+.pull-right[
+
+## Statistical analysis
+
+-Logistic regression model to investigate the likelihood of correctly selecting the correct combination of vowels in relation to the participant’ language proficiency.
+]
+
+---
+# Results 
+.center[
+```{r echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics(here("figs", "s2_all.png"))
+
+```
+]
+---
+# Experiment 3: Spanish Resyllabification.
+
+--
+La**s** alas / La **s**alas 
+
+Ve**n** aves / Ve **n**aves
+
+- According Hualde (2005) would be pronounced identically due to the resyllabification process.
+
+- Later contradicted by Michnowicz & Kagan, (2016), Lahoz-Bengoechea & Jiménez-Bravo, (2021) finding durational differences.
+  - Shorter coda/s
+ 
+- The only study performed in L2 learners was performed by Scarpace, (2017). 
+
+  - Confounding results. 
+  - Mixed Mexico and Colombia dialects
+  
+---
+# Research Questions  
+
+- 	To what extent can second language learners perceive duration differences associated with resyllabification? 
+-    Does access to visual articulatory cues impact second language learners’ ability to perceive differences between canonical and resyllabified occurrences?
+
+---
+.pull-left[
+## Methods and procedure 
+
+- The stimuli was recorded in a meaningful carrier sentence, e.g., *las alas del pájaro son grandes* vs *la comida la salas.*
+
+- Video trimmed following Experiments 1 and 2 methodology. 
+
+## Participants 
+
+```{r echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics(here("figs", "s3part.png"))
+
+```
+]
+
+.pull-right[
+## Statistical analysis
+-Logistic regression model to investigate the likelihood of correctly selecting the correct combination of syllabes in relation to the participant’ language proficiency.
+]
+
+---
+# Results
+
+.center[
+```{r echo=FALSE}
+#| out.width: "130%"
+knitr::include_graphics(here("figs", "s3consonante.png"))
+
+```
+]
+---
+# Results
+
+.center[
+```{r echo=FALSE}
+#| out.width: "130%"
+knitr::include_graphics(here("figs", "s3lexTALE.png"))
+
+```
+]
+---
+
+# Discussion.
+
+- The study explored the role of visual cues, such as lip and facial movements, in helping English speakers learn Spanish as a second language.
+
+- Experiments 1/2/3 showed that as language proficiency increases, learners can rely more on visual cues, improving speech perception and reducing misidentification. (Peelle & Sommers, 2015; Tye-Murray et al., 2007).
+  - Combination of auditory and visual information facilitates L2 speech perception.
+
+
+- The results support both the (PAM-L2) and the (SLM).
+  - Difficulty in distinguishing between the /e-i/ and /u-o/ vowel pairs.
+  - New categories (phonemes and visemes) are created as proficiency advances. 
+--
+
+- Participants in Experiment 2 and 3 might have experienced intersection density (Tye-Murray et al. 2007). 
+
+  - Higher proficiency students have more lexical options available.
+
+  - Marian et al. (2018), l2 experience the McGurk effect more often than monolinguals.
+
+--
+
+
+- Experiment 3 aligns with Michnowicz & Kagan, (2016), Lahoz-Bengoechea & Jiménez-Bravo, (2021). 
+
+  - Canonical and resyllabified have durational diferences. 
+
+---
+# Conclusion
+
+- Experiments 1, 2, and 3 had different theoretical approaches, and therefore showed different performances across participants.
+
+- L2 speakers beneficent from bimodal perception. 
+
+- Learners develop new categories (phonemes and visemes) as proficiency advances. 
+
+- The scope of this study can be extrapolated to the importance of integrating visual cues in language instruction to improve phonetic discrimination, particularly for learners with developing linguistic abilities.
+  - Specifically in online language courses
+
+---
+# Questions?
+
+
+---
+# References
+
+
+Best, C. T., Tyler, M., Bohn, O., & Munro, M. (2007). Nonnative and second-language speech
+perception. Language Experience in Second Language Speech Learning, 13–34.
+
+
+Bradlow, A. R., & Bent, T. (2002). The clear speech effect for non-native listeners. The Journal of the Acoustical Society of America, 112(1), 272–284.
+
+
+Devlin, J. T., & Aydelott, J. (2009). Speech perception: Motoric contributions versus the motor theory. Current Biology, 19(5), R198–R200.
+
+
+Elvin, J., Escudero, P., & Vasiliev, P. (2014). Spanish is better than english for discriminating portuguese vowels: Acoustic similarity versus vowel inventory size. Frontiers in Psychology, 5, 1188.
+
+
+Escudero, P., & Williams, D. (2012). Native dialect influences second-language vowel perception: Peruvian versus iberian spanish learners of dutch. The Journal of the Acoustical Society of America, 131(5), EL406–EL412.
+
+
+Fenwick, S. E., Best, C. T., Davis, C., & Tyler, M. D. (2017). The influence of auditory-visual speech and clear speech on cross-language perceptual assimilation. Speech Communication, 92, 114–124.
+
+---
+# References
+
+Fisher, C. G. (1968). Confusions among visually perceived consonants. Journal of Speech and Hearing Research, 11(4), 796–804.
+
+
+Flege, J. E., & Bohn, O.-S. (2021). The revised speech learning model (SLM-r). Second Language Speech Learning: Theoretical and Empirical Progress, 10(9781108886901.002).
+
+
+Fowler, C. A. (1986). An event approach to the study of speech perception from a direct–realist perspective. Journal of Phonetics, 14(1), 3–28.
+
+Gordon, L. S. (2008). Factors affecting english speakers’ perception of L2 spanish vowels. Georgetown University.
+
+
+Hazan, V., Sennema, A., Faulkner, A., Ortega-Llebaria, M., Iba, M., & Chung, H. (2006). The use of visual cues in the perception of non-native consonant contrasts. The Journal of the Acoustical Society of America, 119(3), 1740–1751.
+---
+# References
+
+Hualde, J. I. (2005). The sounds of spanish with audio CD. Cambridge University Press.
+
+
+Hualde, J. I. (2013). Los sonidos del español: Spanish language edition. Cambridge University Press.
+
+
+Inceoglu, S. (2022). Language experience and subjective word familiarity on the multimodal perception of non-native vowels. Language and Speech, 65(1), 173–192.
+
+
+Lahoz-Bengoechea, J. M., & Jiménez-Bravo, M. (2021). Spoken word boundary detection in ambiguous resyllabification contexts in spanish.
+
+
+Lemhöfer, K., & Broersma, M. (2012). Introducing LexTALE: A quick and valid lexical test for advanced learners of english. Behavior Research Methods, 44, 325–343.
+
+
+Leonte, A., Colzato, L. S., Steenbergen, L., Hommel, B., & Akyürek, E. G. (2018). Supplementation of gamma-aminobutyric acid (GABA) affects temporal, but not spatial visual attention. Brain and Cognition, 120, 8–16.
+
+
+Levy, E. S., & Strange, W. (2008). Perception of french vowels by american english adults with and without french language experience. Journal of Phonetics, 36(1), 141–157.
+---
+# References
+
+
+
+
