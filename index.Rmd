@@ -40,7 +40,7 @@ knitr::include_graphics(here("figs", "eye1.jpg"))
 
 - Extensive literature in L1 visual perception (O’Neill, 1954; Ross et al., 2007; Sumby & Pollack, 1954).
 
-- Studies based on L1 and participants with disabilities.
+- Majority of studies based on L1 and participants with disabilities.
 
 - Scarce, but promising research in SLA bimodal speech perception suggests that can have beneficial implications for second language learning (Brancazio & Miller, 2005; Hazan et al., 2006)
 ]
@@ -291,28 +291,28 @@ knitr::include_graphics(here("figs", "s1_all.png"))
 ---
 # Experiment 2: L2 identification of monophthong-diphthong alternations.
 
-## Method 
 .pull-left[
+## Method 
 - Same conditions and procedure as in Experiment 1.
 - Real words were used
   - Pena vs Peina
   - Vale vs Baile
 - The mismatch condition was established by exchanging both input stimuli.
 - With a total of **fifty-six items**
-
-## Participants 
-```{r echo=FALSE}
-#| out.width: "50%"
-knitr::include_graphics(here("figs", "s2part.png"))
-
-```
 ]
 
 .pull-right[
-
 ## Statistical analysis
-
 -Logistic regression model to investigate the likelihood of correctly selecting the correct combination of vowels in relation to the participant’ language proficiency.
+
+
+## Participants 
+```{r echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics(here("figs", "s2part.png"))
+
+```
+
 ]
 
 ---
@@ -396,7 +396,7 @@ knitr::include_graphics(here("figs", "s3lexTALE.png"))
 
 - The study explored the role of visual cues, such as lip and facial movements, in helping English speakers learn Spanish as a second language.
 
-- Experiments 1/2/3 showed that as language proficiency increases, learners can rely more on visual cues, improving speech perception and reducing misidentification. (Peelle & Sommers, 2015; Tye-Murray et al., 2007).
+- Experiments 1/2/3 showed that as language proficiency increases, learners can rely more on visual cues, improving speech perception and reducing misidentification (Peelle & Sommers, 2015; Tye-Murray et al., 2007).
   - Combination of auditory and visual information facilitates L2 speech perception.
 
 
