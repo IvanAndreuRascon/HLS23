@@ -1,7 +1,7 @@
 ---
-title: "Bimodal Speech Perception in Second Language Learning: The Power of Visual Cues"
-subtitle: Bimodal Speech Production in L2 Learners
-author: "Ivan Andreu Rascon"
+title: "From Eyes to Ears: The Visual and Auditory Dynamics of Spanish Vowels for English Students"
+subtitle: 
+author: ""
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
 output:
@@ -44,14 +44,6 @@ knitr::include_graphics(here("figs", "eye1.jpg"))
 
 - Scarce, but promising research in SLA bimodal speech perception suggests that can have beneficial implications for second language learning (Brancazio & Miller, 2005; Hazan et al., 2006)
 ]
----
-# This study. 
-
-### Experiment 1: **Identification of Spanish vowels.**
-
-### Experiment 2: **L2 identification of monophthong-diphthong alternations.**
-
-### Experiment 3: **Modality effects on perception of Spanish resyllabification.**
 
 ---
 
@@ -288,108 +280,7 @@ knitr::include_graphics(here("figs", "s1_all.png"))
 
 ```
 ]
----
-# Experiment 2: L2 identification of monophthong-diphthong alternations.
 
-.pull-left[
-## Method 
-- Same conditions and procedure as in Experiment 1.
-- Real words were used
-  - Pena vs Peina
-  - Vale vs Baile
-- The mismatch condition was established by exchanging both input stimuli.
-- With a total of **fifty-six items**
-]
-
-.pull-right[
-## Statistical analysis
--Logistic regression model to investigate the likelihood of correctly selecting the correct combination of vowels in relation to the participant’ language proficiency.
-
-
-## Participants 
-```{r echo=FALSE}
-#| out.width: "100%"
-knitr::include_graphics(here("figs", "s2part.png"))
-
-```
-
-]
-
----
-# Results 
-.center[
-```{r echo=FALSE}
-#| out.width: "100%"
-knitr::include_graphics(here("figs", "s2_all.png"))
-
-```
-]
----
-# Experiment 3: Spanish Resyllabification.
-
---
-La**s** alas / La **s**alas 
-
-Ve**n** aves / Ve **n**aves
-
-- According Hualde (2005) would be pronounced identically due to the resyllabification process.
-
-- Later contradicted by Michnowicz & Kagan, (2016), Lahoz-Bengoechea & Jiménez-Bravo, (2021) finding durational differences.
-  - Shorter coda/s
- 
-- The only study performed in L2 learners was performed by Scarpace, (2017). 
-
-  - Confounding results. 
-  - Mixed Mexico and Colombia dialects
-  
----
-# Research Questions  
-
-- 	To what extent can second language learners perceive duration differences associated with resyllabification? 
--    Does access to visual articulatory cues impact second language learners’ ability to perceive differences between canonical and resyllabified occurrences?
-
----
-.pull-left[
-## Methods and procedure 
-
-- The stimuli was recorded in a meaningful carrier sentence, e.g., *las alas del pájaro son grandes* vs *la comida la salas.*
-
-- Video trimmed following Experiments 1 and 2 methodology. 
-
-## Participants 
-
-```{r echo=FALSE}
-#| out.width: "100%"
-knitr::include_graphics(here("figs", "s3part.png"))
-
-```
-]
-
-.pull-right[
-## Statistical analysis
--Logistic regression model to investigate the likelihood of correctly selecting the correct combination of syllabes in relation to the participant’ language proficiency.
-]
-
----
-# Results
-
-.center[
-```{r echo=FALSE}
-#| out.width: "130%"
-knitr::include_graphics(here("figs", "s3consonante.png"))
-
-```
-]
----
-# Results
-
-.center[
-```{r echo=FALSE}
-#| out.width: "130%"
-knitr::include_graphics(here("figs", "s3lexTALE.png"))
-
-```
-]
 ---
 
 # Discussion.
@@ -420,8 +311,6 @@ knitr::include_graphics(here("figs", "s3lexTALE.png"))
 
 ---
 # Conclusion
-
-- Experiments 1, 2, and 3 had different theoretical approaches, and therefore showed different performances across participants.
 
 - L2 speakers beneficent from bimodal perception. 
 
